@@ -1,0 +1,48 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "backendType": "micronaut",
+    "baseName": "mhipsterTest",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-micronaut",
+        "version": "3.6.0"
+      }
+    ],
+    "buildTool": "maven",
+    "cacheProvider": "hazelcast",
+    "clientFramework": "vue",
+    "clientPackageManager": "npm",
+    "creationTimestamp": 1737930434933,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "entities": [],
+    "gitCompany": "",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "8.8.0",
+    "jwtSecretKey": "ZmQxODNmYWI1YzY2NzJkNDNhNzQxZTk2NmZmMmI0ZDdjMzhmYTI1YzRhNmU2NDA3MGEzYTI4ZDE5MTE0YTY1Y2U0Njk2ZDM5NzVmY2QyOGU1OTg4NzRjYjJkODJjOWI2Y2ZiZjVhYTIwNDZhM2E2MDY3NTAxMzdlOTIyN2MwYWM=",
+    "languages": ["en"],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageFolder": "com/mycompany/myapp",
+    "packageName": "com.mycompany.myapp",
+    "prodDatabaseType": "mariadb",
+    "searchEngine": false,
+    "serverPort": 8081,
+    "serverTestFrameworks": [],
+    "serviceDiscoveryType": "consul",
+    "skipCommitHook": true,
+    "skipUserManagement": true,
+    "testFrameworks": [[]],
+    "useSass": true,
+    "websocket": false,
+    "withAdminUi": true
+  },
+  "git-company": "maximilianoPizarro",
+  "git-provider": "GitHub",
+  "repository-name": "mhipster-test"
+}

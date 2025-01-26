@@ -1,0 +1,14 @@
+# ===================================================================
+# Micronaut Distributed Configuration bootstrap with Consul
+# ===================================================================
+micronaut:
+  application:
+    name: mhipsterTest
+  config-client:
+    enabled: true
+
+consul:
+  client:
+    defaultZone: '${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}'
+    config:
+      format: YAML

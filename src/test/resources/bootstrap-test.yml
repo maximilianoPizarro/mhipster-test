@@ -1,0 +1,9 @@
+# ===================================================================
+# Micronaut Distributed Configuration bootstrap
+# ===================================================================
+consul:
+  client:
+    registration:
+      enabled: false
+    config:
+      enabled: false

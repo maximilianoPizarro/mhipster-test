@@ -7,8 +7,16 @@ micronaut:
   config-client:
     enabled: true
 
+#consul:
+#  client:
+#    registration:
+#      enabled: false  
+#    defaultZone: '${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}'
+#    config:
+#      format: YAML
 consul:
   client:
-    defaultZone: '${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}'
+    registration:
+      enabled: false
     config:
-      format: YAML
+      enabled: false

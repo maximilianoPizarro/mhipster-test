@@ -50,8 +50,8 @@
         <exec.mainClass>com.mycompany.myapp.MhipsterTestApp</exec.mainClass>
         <frontend-maven-plugin.version>1.15.1</frontend-maven-plugin.version>
         <git-commit-id-maven-plugin.version>9.0.1</git-commit-id-maven-plugin.version>
-        <hazelcast-hibernate53.version/>
-        <hazelcast-spring.version/>
+        <hazelcast-hibernate53.version>5.2.0</hazelcast-hibernate53.version>
+        <hazelcast-spring.version>5.5.0</hazelcast-spring.version>
         <hibernate.version>6.6.2.Final</hibernate.version>
         <jackson-datatype-problem.version>0.27.1</jackson-datatype-problem.version>
         <jacoco-maven-plugin.version>0.8.12</jacoco-maven-plugin.version>

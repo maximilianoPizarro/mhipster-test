@@ -144,11 +144,17 @@ jpa:
         ddl-auto: none
         physical_naming_strategy: com.mycompany.myapp.config.SnakeCasePhysicalNamingStrategy
 
+#consul:
+#  client:
+#    registration:
+#      enabled: false
+#    defaultZone: '${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}'
 consul:
   client:
     registration:
-      enabled: true
-    defaultZone: '${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}'
+      enabled: false
+    config:
+      enabled: false    
 # Properties to be exposed on the /info management endpoint
 info:
   # Comma separated list of profiles that will trigger the ribbon to show
